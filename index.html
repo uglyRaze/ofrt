@@ -81,6 +81,72 @@
       color: #999;
       font-size: 13px;
     }
+    .landing-desc {
+      text-align: center;
+      color: #444;
+      font-size: 15px;
+      margin-bottom: 22px;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 28px;
+    }
+    .feature {
+      background: #f0f4ff;
+      border-radius: 20px;
+      padding: 8px 18px;
+      font-size: 14px;
+      color: #2a2a5a;
+      font-weight: 500;
+    }
+    .plans h3 {
+      text-align: center;
+      font-size: 17px;
+      margin-bottom: 14px;
+      color: #1a1a2e;
+    }
+    .plan-grid {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+    .plan {
+      background: #f7f8fa;
+      border: 1px solid #e0e4f0;
+      border-radius: 10px;
+      padding: 16px 24px;
+      text-align: center;
+      min-width: 120px;
+    }
+    .plan.best {
+      border-color: #4f8ef7;
+      background: #f0f4ff;
+    }
+    .plan-name { font-size: 14px; font-weight: 600; margin-bottom: 6px; }
+    .plan-price { font-size: 22px; font-weight: 800; color: #1a1a2e; }
+    .plan-badge { font-size: 11px; color: #4f8ef7; margin-top: 4px; }
+    .btn-tg {
+      display: inline-block;
+      background: #4f8ef7;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 32px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 15px;
+      transition: background 0.2s;
+    }
+    .btn-tg:hover { background: #2d6fd4; }
+    .divider {
+      border: none;
+      border-top: 2px solid #e8eaf0;
+      margin: 32px 0 28px;
+    }
     b { color: #1a1a2e; }
     @media (max-width: 600px) {
       .container { padding: 24px 18px; margin: 10px; }
@@ -92,6 +158,45 @@
 
   <div class="header">
     <div class="logo">LOCIS<span> VPN</span></div>
+    <p style="color:#666;font-size:14px;margin-top:6px;">Первый народный VPN в Telegram</p>
+  </div>
+
+  <!-- ЛЕНДИНГ -->
+  <div class="landing">
+    <p class="landing-desc">Locis VPN — быстрый и надёжный VPN-сервис с доступом через Telegram-бот. Никаких сложных настроек — просто выбери тариф, оплати и получи доступ. (В данный момент telegram-бот в разработке)</p>
+
+    <div class="features">
+      <div class="feature">⚡ Быстрое подключение</div>
+      <div class="feature">🛡 Надёжная защита данных</div>
+      <div class="feature">💰 Самые низкие цены</div>
+      <div class="feature">📱 Windows, macOS, iOS, Android</div>
+    </div>
+
+    <div class="plans">
+      <h3>Тарифы</h3>
+      <div class="plan-grid">
+        <div class="plan">
+          <div class="plan-name">🟢 1 месяц</div>
+          <div class="plan-price">80 ₽</div>
+        </div>
+        <div class="plan">
+          <div class="plan-name">🔵 3 месяца</div>
+          <div class="plan-price">200 ₽</div>
+          <div class="plan-badge">экономия 17%</div>
+        </div>
+        <div class="plan best">
+          <div class="plan-name">⭐ 1 год</div>
+          <div class="plan-price">700 ₽</div>
+          <div class="plan-badge">экономия 27%</div>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin:28px 0 10px;">
+      <a href="https://t.me/locis_vpn_bot" class="btn-tg">Перейти в Telegram-бот</a>
+    </div>
+
+    <div class="divider"></div>
   </div>
 
   <h1>ПУБЛИЧНАЯ ОФЕРТА</h1>
@@ -194,15 +299,6 @@
     <h2>11. Реквизиты Продавца</h2>
     <p><b>ИНН:</b> 410125325435</p>
     <p><b>Контактный телефон:</b> +7 984 168-17-92</p>
-    <p><b>Контактный e-mail:</b> <a href="mailto:zlojded338@gmail.com">zlojded338@gmail.com</a></p>
+    <p><b>Контактный e-mail:</b> <a href="/cdn-cgi/l/email-protection#255f494a4f41404116161d654248444c490b464a48"><span class="__cf_email__" data-cfemail="dfa5b3b0b5bbbabbecece79fb8b2beb6b3f1bcb0b2">[email&#160;protected]</span></a></p>
     <p><b>Telegram-бот:</b> <a href="https://t.me/locis_vpn_bot">@locis_vpn_bot</a></p>
-    <p><b>Telegram-канал:</b> <a href="https://t.me/locis_vpn">@locis_vpn</a></p>
-  </div>
-
-  <div class="footer">
-    © Locis VPN. Все права защищены.
-  </div>
-
-</div>
-</body>
-</html>
+    <p><b>Telegram-канал:</b> <a href="https://t.me/locis_vpn">@l
